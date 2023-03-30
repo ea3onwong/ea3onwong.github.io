@@ -161,18 +161,18 @@ textarea {
 }
 
 
-:root::after {
-	content: "Still In Progress ";
+.watermark {
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%) rotate(320deg);
+	transform: translate(-50%, -50%) rotate(340deg);
 	position: fixed;
 	color: gray;
 	z-index: 9999999;
-	font-size: 100px;
-	letter-spacing: 10px;
+	font-size: 200px;
+	letter-spacing: 8px;
 	font-weight: bold;
 	white-space: nowrap;
+	font-family: sans-serif;
 }
 
 

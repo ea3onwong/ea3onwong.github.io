@@ -168,7 +168,7 @@ textarea {
 	transform: translate(-50%, -50%) rotate(320deg);
 	position: fixed;
 	color: gray;
-	z-index: 999;
+	z-index: 9999999;
 	font-size: 100px;
 	letter-spacing: 10px;
 	font-weight: bold;

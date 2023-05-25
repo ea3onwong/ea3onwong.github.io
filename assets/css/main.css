@@ -173,7 +173,7 @@ textarea {
 	letter-spacing: 8px;
 	font-weight: bold;
 	white-space: nowrap;
-	font-family: sans-serif;
+	font-family: serif;
 }
 
 
@@ -211,7 +211,7 @@ input,
 select,
 textarea {
 	color: #888;
-	font-family: "Lato", sans-serif;
+	font-family: "Lato", serif;
 	font-size: 16pt;
 	font-weight: 400;
 	line-height: 1.75em;

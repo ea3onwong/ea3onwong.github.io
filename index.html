@@ -22,7 +22,7 @@
 				<header>
 					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
 					<h1 id="logo"><a href="#">Eason Wong</a></h1>
-					<p>Computer Science and Economics Undergraduate Student</p>
+					<p>Computer Science and Economics Undergraduate </p>
 				</header>
 				<nav id="nav">
 					<ul>
@@ -56,8 +56,8 @@
 									<header class="major">
 										<h2> Hi, I am Eason Wong <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="60px"> </h2> 
 										<h3> About Me </h3>
+										<p> Backend Developer in Sydney, Australia📍 </p>
 									</header>
-									<h4> Backend Developer in Sydney, Australia📍 </h4>
 									<p> 
 										I am a passionate Backend Developer with a unique background in Computer Science and Economics. 
 										My technical expertise in programming, fused with a deep understanding of economic principles, 
@@ -91,7 +91,7 @@
 							<section id="three">
 								<div class="container">
 									<h3>My Projects</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+									<p>  <em>Transforming ideas into tangible, impactful solutions</em></p>
 									<div class="features">
 										<article>
 											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
@@ -119,16 +119,53 @@
 							</section>
 
 						<!-- Four -->
+							<!-- <section id="four">
+								<div class="container">
+									<h3>Contact Me</h3>
+									<p class="icon solid fa-envelope">
+										<span style="margin-left: 5px; font-weight: bold; text-transform: uppercase;">Email:</span>
+										<span style="margin-left: 5px;"><a href="mailto:wong.eason@outlook.com">wong.eason@outlook.com</a></span>
+									</p>
+
+								</div>
+							</section> -->
 							<section id="four">
 								<div class="container">
 									<h3>Contact Me</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-									
-									
-
+									<form onsubmit="sendEmail(); reset(); return false;">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+											<div class="col-6 col-12-xsmall"><input required pattern='^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$' type="email" name="email" id="email" placeholder="Email" /></div>
+											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" class="primary" value="Send Message" /></li>
+													<li><input type="reset" value="Reset Form" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
 								</div>
-							</section>
+								<script src="https://smtpjs.com/v3/smtp.js"></script>
+								<script>
+									function sendEmail() {
+										Email.send({
+											SecureToken: "5bf72bd7-0429-4b7a-b24d-c01e37cec604", 
+											To : 'wong.eason@outlook.com',
+											From : 'madeasonwong@gmail.com', 
+											Subject : document.getElementById("subject").value,
+											Body : "Name: " + document.getElementById("name").value 
+											+ "<br> <br> Email: " + document.getElementById("email").value
+											+ "<br> <br> Message: " + document.getElementById("message").value
 
+										}).then(
+										message => alert(message)
+										);
+									}
+								</script>
+
+							</section>
 						<!-- Five -->
 						<!--
 							<section id="five">

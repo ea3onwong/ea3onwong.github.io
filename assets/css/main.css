@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 /*
 	Read Only by HTML5 UP
@@ -275,7 +276,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.75em;
+	font-size: 2.3em;
 	line-height: 1.5em;
 }
 
@@ -2558,6 +2559,72 @@ ul.icons li:last-child {
 
 ul.icons li .icon:before {
 	font-size: 1.25em;
+}
+
+/* icon-with-text */
+
+ul.icon-with-text {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.icon-with-text li {
+	display: inline-block;
+	padding: 0 1em 0 0;
+}
+
+ul.icon-with-text li:last-child {
+	padding-right: 0 !important;
+}
+
+ul.icon-with-text li .icon:before {
+	font-size: 1.25em;
+}
+
+.icon-with-text {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.icon-with-text li {
+	display: flex;
+	align-items: flex-start;
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	margin-bottom: 10px;
+	flex-basis: 50%;
+	/* Each column occupies 50% width */
+	box-sizing: border-box;
+	/* Include padding and border in width calculation */
+	padding-right: 20px;
+	/* Add right padding between columns */
+}
+
+.icon-with-text li i {
+	margin-right: 10px;
+	width: 24px;
+	/* Adjust the width as per your preference */
+	height: 24px;
+	/* Adjust the height as per your preference */
+}
+
+.icon-with-text li span.label {
+	font-weight: bold;
+	display: inline-block;
+	width: 80px;
+	/* Adjust the width as per your preference */
+}
+
+.icon-with-text li span.link {
+	display: block;
+}
+
+.icon-with-text li span a {
+	text-decoration: none;
+
 }
 
 /* Table */

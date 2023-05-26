@@ -172,7 +172,7 @@ textarea {
 /* Tech Stack */
 .tech-stack img {
 	margin-right: 5px;
-	animation: waveFadeInOut 8s ease-in-out infinite;
+	animation: waveFadeInOut 6s ease-in-out infinite;
 	animation-delay: calc((var(--delay) * 0.08s) - (var(--delay) * 0.05s * var(--index)));
 }
 
@@ -197,6 +197,53 @@ textarea {
 		transform: scale(0.5);
 	}
 }
+
+/* alien shooting bullet */
+
+body {
+	overflow-x: hidden;
+	/* Prevent horizontal scrolling */
+}
+
+.alien {
+	position: relative;
+	display: inline-block;
+}
+
+.bullet {
+	position: absolute;
+	width: 20px;
+	height: 5px;
+	top: 50%;
+	left: 100%;
+	transform: translate(-50%, -50%);
+	animation: shootAnimation 4s linear infinite;
+	background: linear-gradient(to right, red, yellow);
+}
+
+@keyframes shootAnimation {
+	0% {
+		left: 100%;
+	}
+
+	100% {
+		left: 100vw;
+	}
+}
+
+/* zoom in effect */
+
+.contact-title {
+	position: relative;
+	display: inline-block;
+}
+
+.zoom-in {
+	display: inline-block;
+	transition: transform 0.5s ease-in-out;
+}
+
+
 
 /* watermark */
 .watermark {

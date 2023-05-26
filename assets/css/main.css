@@ -172,7 +172,7 @@ textarea {
 /* Tech Stack */
 .tech-stack img {
 	margin-right: 5px;
-	animation: waveFadeInOut 7s ease-in-out infinite;
+	animation: waveFadeInOut 8s ease-in-out infinite;
 	animation-delay: calc((var(--delay) * 0.08s) - (var(--delay) * 0.05s * var(--index)));
 }
 

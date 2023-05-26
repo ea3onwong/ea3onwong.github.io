@@ -1,6 +1,14 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+
+
+
+
+
+
 
 /*
 	Read Only by HTML5 UP
@@ -161,7 +169,36 @@ textarea {
 	appearance: none;
 }
 
+/* Tech Stack */
+.tech-stack img {
+	margin-right: 5px;
+	animation: waveFadeInOut 6.5s ease-in-out infinite;
+	animation-delay: calc((var(--delay) * 0.08s) - (var(--delay) * 0.05s * var(--index)));
+}
 
+@keyframes waveFadeInOut {
+	0% {
+		opacity: 0;
+		transform: scale(0.5);
+	}
+
+	20% {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	80% {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(0.5);
+	}
+}
+
+/* watermark */
 .watermark {
 	top: 50%;
 	left: 50%;
@@ -3473,6 +3510,8 @@ input[type="button"]:disabled,
 		transform: translateX(-17em);
 	}
 
+
+
 }
 
 /* XSmall */
@@ -3540,5 +3579,7 @@ input[type="button"]:disabled,
 	.button {
 		padding: 0;
 	}
+
+
 
 }

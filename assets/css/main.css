@@ -169,6 +169,92 @@ textarea {
 	appearance: none;
 }
 
+/* home page */
+section#zero {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: translateY(-10%);
+	flex-direction: column;
+}
+
+section#zero .container {
+	text-align: center;
+}
+
+section#zero h2 {
+	margin: 0;
+}
+
+/* scrolldown indicator */
+.scrolldown {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	width: 35px;
+	height: 35px;
+	transform: translateX(-50%) rotate(45deg);
+	cursor: pointer;
+}
+
+
+.scrolldown span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-bottom: 2px solid #4acaa8;
+	border-right: 2px solid #4acaa8;
+	animation: scroll-down-animate 1.5s linear infinite;
+	opacity: 0;
+}
+
+.scrolldown span:nth-child(1) {
+	transform: translate(-15px, -15px);
+	animation-delay: -0.4s;
+}
+
+.scrolldown span:nth-child(2) {
+	transform: translate(0, 0);
+	animation-delay: -0.2s;
+}
+
+.scrolldown span:nth-child(3) {
+	transform: translate(15px, 15px);
+	animation-delay: 0s;
+}
+
+
+@keyframes scroll-down-animate {
+	0% {
+		top: -5px;
+		left: -5px;
+		opacity: 0;
+	}
+
+	25% {
+		top: 0px;
+		left: 0px;
+		opacity: 1;
+	}
+
+	50%,
+	100% {
+		top: 5px;
+		left: 5px;
+		opacity: 0;
+	}
+}
+
+.scrolldown.no-underline {
+	text-decoration: none;
+}
+
+
+
 /* Tech Stack */
 .tech-stack img {
 	margin-right: 5px;

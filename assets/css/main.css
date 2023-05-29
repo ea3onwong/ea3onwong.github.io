@@ -405,20 +405,6 @@ body {
 	}
 }
 
-/* zoom in effect */
-
-.contact-title {
-	position: relative;
-	display: inline-block;
-}
-
-.zoom-in {
-	display: inline-block;
-	transition: transform 0.5s ease-in-out;
-}
-
-
-
 /* watermark */
 .watermark {
 	top: 50%;

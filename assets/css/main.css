@@ -2566,8 +2566,8 @@ input[type="radio"]+label:before {
 /* avatar */
 
 .image.avatar {
-	width: 40% !important;
-	padding-bottom: 39% !important;
+	width: 45% !important;
+	padding-bottom: 44% !important;
 	position: relative;
 
 	background: url(../../images/my-avatar.JPG);
@@ -2872,7 +2872,7 @@ ul.icon-with-text li .icon:before {
 	display: flex;
 	align-items: flex-start;
 	font-family: 'Playfair Display', serif;
-	font-size: 20px;
+	font-size: 19px;
 	margin-bottom: 40px;
 	flex-basis: 50%;
 	/* Each column occupies 50% width */

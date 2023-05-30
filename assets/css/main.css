@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 
 
@@ -180,6 +180,7 @@ section#zero {
 	flex-direction: column;
 	text-align: center;
 }
+
 
 section#zero .container {
 	margin-bottom: 2em;
@@ -422,6 +423,72 @@ body {
 }
 
 
+/* timeline */
+
+.timeline {
+	margin: 0 auto;
+	max-width: 700px;
+	padding: 15px;
+	display: grid;
+	grid-template-columns: 1fr 3px 1fr;
+	font-family: 'Playfair Display', serif;
+	color: #777777;
+	margin-top: 2em;
+}
+
+.timeline__component {
+	margin: 0 20px 20px 20px;
+}
+
+.timeline__component--bg {
+	padding: 1em;
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+}
+
+/* LEAVE TILL LAST */
+.timeline__component--bottom {
+	margin-bottom: 0;
+}
+
+.timeline__middle {
+	position: relative;
+	background: #4acaa8;
+}
+
+.timeline__point {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 15px;
+	height: 15px;
+	background: #4acaa8;
+	border-radius: 50%;
+}
+
+/* LEAVE TILL LAST */
+.timeline__point--bottom {
+	top: initial;
+	bottom: 0;
+}
+
+.timeline__date--right {
+	text-align: right;
+	font-size: 18px;
+}
+
+.timeline__date--left {
+	text-align: left;
+	font-size: 18px;
+}
+
+.timeline__title {
+	margin: 0;
+	font-size: 0.9em;
+	/* font-weight: bold; */
+}
 
 /* Basic */
 

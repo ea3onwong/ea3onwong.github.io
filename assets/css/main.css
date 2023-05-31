@@ -173,26 +173,29 @@ textarea {
 
 /* home page */
 section#zero {
-	height: 100vh;
-	display: flex;
+	/* height: 100vh; */
+	/* display: flex; */
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	text-align: center;
 }
 
-
 section#zero .container {
-	margin-bottom: 3em;
+	margin-bottom: 0em;
 }
 
 section#zero h2 {
-	margin: 0;
+	margin: 0em;
+	margin-top: 0em;
+
 }
 
 
+
+
 section#zero #resumeButton {
-	margin-top: 3em;
+	margin-top: 2em;
 }
 
 
@@ -251,9 +254,10 @@ section#zero #resumeButton {
 	text-align: center;
 	text-decoration: none;
 	display: inline-flex;
+
 	justify-content: center;
 	align-items: center;
-	font-size: 22px;
+	/* font-size: 22px; */
 	transition-duration: 0.4s;
 	cursor: pointer;
 	font-weight: bold;
@@ -269,7 +273,7 @@ section#zero #resumeButton {
 	height: 25px;
 	width: 25px;
 	/* margin-right: 3px; */
-	margin-bottom: 4px;
+	margin-bottom: 5px;
 }
 
 
@@ -422,8 +426,8 @@ body {
 
 .timeline {
 	margin: 0 auto;
-	max-width: 700px;
-	padding: 15px;
+	max-width: 570px;
+	padding: 10px;
 	display: grid;
 	grid-template-columns: 1fr 3px 1fr;
 	font-family: 'Playfair Display', serif;
@@ -431,16 +435,18 @@ body {
 	margin-top: 2em;
 }
 
+
 .timeline__component {
 	margin: 0 20px 20px 20px;
 }
 
+/* 
 .timeline__component--bg {
-	padding: .8em;
+	padding: 1em;
 	background: rgba(255, 255, 255, 0.2);
-	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
 	border-radius: 15px;
-}
+} */
 
 /* LEAVE TILL LAST */
 .timeline__component--bottom {
@@ -471,18 +477,19 @@ body {
 
 .timeline__date--right {
 	text-align: right;
-	font-size: 18px;
+	font-size: 90%;
+
 }
 
 .timeline__date--left {
 	text-align: left;
-	font-size: 18px;
+	font-size: 90%;
 }
 
 .timeline__title {
-	margin: 0;
-	font-size: 0.9em;
-	/* font-weight: bold; */
+	margin: 0em;
+	font-size: 90%;
+
 }
 
 .timeline__title--left {
@@ -2215,7 +2222,7 @@ header h2+p {
 }
 
 header h3+p {
-	font-size: 1.3em;
+	font-size: 1.2em;
 	margin-top: -0.35em;
 	line-height: 1.5em;
 }
@@ -2942,7 +2949,7 @@ ul.icon-with-text li .icon:before {
 	display: flex;
 	align-items: flex-start;
 	font-family: 'Playfair Display', serif;
-	font-size: 19px;
+	/* font-size: 18px; */
 	margin-bottom: 40px;
 	flex-basis: 50%;
 	/* Each column occupies 50% width */

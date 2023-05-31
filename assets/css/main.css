@@ -491,10 +491,10 @@ body {
 
 .timeline__title {
 	margin: 0em;
-	position: relative;
-	bottom: -15%;
 	/* padding: 0.3em; */
 	font-size: 90%;
+	position: relative;
+	bottom: -19%;
 }
 
 .timeline__title--left {
@@ -505,6 +505,10 @@ body {
 .timeline__title--right {
 	text-align: right;
 	right: 0.4em;
+}
+
+.timeline__title--bottom {
+	bottom: -15%;
 }
 
 /* Basic */
@@ -2245,7 +2249,7 @@ header h6+p {
 header.major h2 {
 	color: #777777;
 	font-family: 'Kaushan Script', cursive;
-	font-size: 3.2em;
+	font-size: 3em;
 	letter-spacing: .08em;
 }
 

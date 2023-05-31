@@ -426,7 +426,7 @@ body {
 
 .timeline {
 	margin: 0 auto;
-	max-width: 570px;
+	max-width: 560px;
 	padding: 10px;
 	display: grid;
 	grid-template-columns: 1fr 3px 1fr;
@@ -489,7 +489,8 @@ body {
 .timeline__title {
 	margin: 0em;
 	font-size: 90%;
-
+	position: relative;
+	bottom: -8%;
 }
 
 .timeline__title--left {

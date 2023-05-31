@@ -478,11 +478,15 @@ body {
 .timeline__date--right {
 	text-align: right;
 	font-size: 90%;
+	position: relative;
+	right: 0.15em;
 }
 
 .timeline__date--left {
 	text-align: left;
 	font-size: 90%;
+	position: relative;
+	left: 0.15em;
 }
 
 .timeline__title {

@@ -442,7 +442,7 @@ body {
 
 /* 
 .timeline__component--bg {
-	padding: 1em;
+	padding: 0.35em;
 	background: rgba(255, 255, 255, 0.2);
 	box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
 	border-radius: 15px;
@@ -477,28 +477,30 @@ body {
 
 .timeline__date--right {
 	text-align: right;
-	font-size: 95%;
+	font-size: 90%;
 }
 
 .timeline__date--left {
 	text-align: left;
-	font-size: 95%;
+	font-size: 90%;
 }
 
 .timeline__title {
 	margin: 0em;
 	position: relative;
-	bottom: -5%;
-	padding: 0.3em;
-	font-size: 95%;
+	bottom: -15%;
+	/* padding: 0.3em; */
+	font-size: 90%;
 }
 
 .timeline__title--left {
 	text-align: left;
+	left: 0.45em;
 }
 
 .timeline__title--right {
 	text-align: right;
+	right: 0.45em;
 }
 
 /* Basic */
@@ -2239,8 +2241,8 @@ header h6+p {
 header.major h2 {
 	color: #777777;
 	font-family: 'Kaushan Script', cursive;
-	font-size: 3.25em;
-	letter-spacing: .07em;
+	font-size: 3.2em;
+	letter-spacing: .08em;
 }
 
 header.major h2+p {

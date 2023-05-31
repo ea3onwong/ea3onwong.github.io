@@ -1,4 +1,4 @@
-const names = ["Eason Wong"];
+const names = ["Eason"];
 let count = 0;
 let index = 0;
 let currentName = '';

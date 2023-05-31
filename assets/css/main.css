@@ -426,7 +426,7 @@ body {
 
 .timeline {
 	margin: 0 auto;
-	max-width: 560px;
+	max-width: 600px;
 	padding: 10px;
 	display: grid;
 	grid-template-columns: 1fr 3px 1fr;
@@ -477,20 +477,20 @@ body {
 
 .timeline__date--right {
 	text-align: right;
-	font-size: 90%;
-
+	font-size: 95%;
 }
 
 .timeline__date--left {
 	text-align: left;
-	font-size: 90%;
+	font-size: 95%;
 }
 
 .timeline__title {
 	margin: 0em;
-	font-size: 90%;
 	position: relative;
-	bottom: -15%;
+	bottom: -5%;
+	padding: 0.3em;
+	font-size: 95%;
 }
 
 .timeline__title--left {
@@ -2239,7 +2239,7 @@ header h6+p {
 header.major h2 {
 	color: #777777;
 	font-family: 'Kaushan Script', cursive;
-	font-size: 3.5em;
+	font-size: 3em;
 	letter-spacing: .07em;
 }
 

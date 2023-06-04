@@ -2654,11 +2654,11 @@ input[type="radio"]+label:before {
 /* avatar */
 
 .image.avatar {
+	background: url(../../images/my-avatar.JPG);
 	width: 41% !important;
 	padding-bottom: 40% !important;
 	position: relative;
-
-	background: url(../../images/my-avatar.JPG);
+	border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;

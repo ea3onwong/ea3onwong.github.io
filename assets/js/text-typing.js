@@ -19,15 +19,15 @@ let isDeleting = false;
     document.querySelector('#typeEffect').textContent = letter;
     if (!isDeleting && letter.length === currentName.length) {
         // Pause at end
-        setTimeout(type, 1000);
+        setTimeout(type, 4000);
         isDeleting = true;
     } else if (isDeleting && letter.length === 0) {
         isDeleting = false;
         count++;
         // Pause before start typing
-        setTimeout(type, 500);
+        setTimeout(type, 750);
     } else {
-        let typeSpeed = isDeleting ? 200 : 100;
+        let typeSpeed = isDeleting ? 150 : 100;
         setTimeout(type, typeSpeed);
     }
 }());

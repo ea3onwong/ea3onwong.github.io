@@ -19,7 +19,7 @@ let isDeleting = false;
     document.querySelector('#typeEffect').textContent = letter;
     if (!isDeleting && letter.length === currentName.length) {
         // Pause at end
-        setTimeout(type, 4000);
+        setTimeout(type, 3000);
         isDeleting = true;
     } else if (isDeleting && letter.length === 0) {
         isDeleting = false;

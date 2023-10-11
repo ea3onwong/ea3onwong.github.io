@@ -1,4 +1,4 @@
-const names = ["Carrer Path", "My RoadMap"];
+const names = ["My RoadMap"];
 let count = 0;
 let index = 0;
 let currentName = '';

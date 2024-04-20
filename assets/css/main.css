@@ -2705,11 +2705,10 @@ input[type="radio"]+label:before {
 .image.avatar {
 	background: url(../../images/my-avatar.JPG);
 	width: 41% !important;
-	padding-bottom: 40% !important;
+	padding-bottom: 41% !important;
 	position: relative;
 	border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
 	background-repeat: no-repeat;
-	background-position: center;
 	background-size: cover;
 	box-shadow: inset 0 0 0 8px rgb(255 255 255/30%);
 	order: 1;

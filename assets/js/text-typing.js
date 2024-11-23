@@ -1,4 +1,4 @@
-const names = ["My RoadMap"];
+const names = ["Career Timeline"];
 let count = 0;
 let index = 0;
 let currentName = '';
